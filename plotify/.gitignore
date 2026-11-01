@@ -1,0 +1,50 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+env/
+.venv/
+*.egg
+
+# ── Environment — never commit secrets ────────────────────────────────────────
+.env
+*.env
+.env.local
+
+# ── Database ───────────────────────────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+
+# ── File uploads ───────────────────────────────────────────────────────────────
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# ── Node / npm ─────────────────────────────────────────────────────────────────
+node_modules/
+.npm
+package-lock.json
+
+# ── Vite build output ──────────────────────────────────────────────────────────
+frontend/dist/
+frontend/.vite/
+
+# ── Hardhat ────────────────────────────────────────────────────────────────────
+blockchain/cache/
+blockchain/artifacts/
+
+# ── OS ─────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ────────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
